@@ -1,52 +1,128 @@
-# How to render PivotGrid by using Date Range Filter
+# 📊 ASP.NET MVC PivotGrid with Date Range Filter
 
-## Repository Description
+[![License](https://img.shields.io/badge/license-SEE%20LICENSE%20IN%20license-blue.svg)](https://www.syncfusion.com/content/downloads/syncfusion_license.pdf)
+[![Visual Studio 2022](https://img.shields.io/badge/Visual%20Studio-2022-blue.svg)](https://visualstudio.microsoft.com/)
+[![.NET Framework](https://img.shields.io/badge/.NET%20Framework-Supported-brightgreen.svg)](https://dotnet.microsoft.com/)
+[![Syncfusion EJ2](https://img.shields.io/badge/Syncfusion%20EJ2-Latest-green.svg)](https://www.syncfusion.com/aspnet-mvc-components/)
 
-An ASP.NET MVC application demonstrating Syncfusion's EssentialJS2 PivotGrid with interactive date range filtering.
+> An ASP.NET MVC application demonstrating **Syncfusion EssentialJS2 PivotGrid** with interactive date range filtering, dynamic data aggregation, and responsive UI—perfect for business intelligence and analytical reporting scenarios.
 
-## Features
+---
 
-* **PivotGrid Rendering** - Dynamic pivot grid with customizable rows, columns, and values
-* **Date Range Filtering** - Interactive picker for filtering data by time periods
-* **Data Aggregation** - Automatic summarization based on applied filters
-* **Responsive Design** - Bootstrap-based responsive UI for all screen sizes
-* **EssentialJS2 Integration** - Syncfusion components for rich user interface
+## ✨ Key Features
 
-## Prerequisites
+- 📊 **Dynamic PivotGrid Rendering** — Flexible rows, columns, and value field configuration
+- 📅 **Interactive Date Range Filter** — Intuitive date picker for temporal data filtering
+- 🔢 **Real-time Data Aggregation** — Automatic summarization with instant updates
+- 📱 **Responsive Design** — Bootstrap-based layout for desktop, tablet, and mobile
+- 🎨 **EssentialJS2 Components** — Rich Syncfusion UI elements for professional appearance
+- 🗄️ **SQL Server Compact Support** — Embedded database for easy deployment
 
-* Visual Studio 2022
-* .NET Framework
-* NuGet Package Manager
+---
 
-## Installation
+## 📋 Prerequisites
 
-1. Checkout this project to your disk
-2. Open the solution in Visual Studio 2022
-3. Restore NuGet packages by rebuilding
-4. Ensure SQL Server Compact database connectivity (ReportsTable.sdf in App_Data)
+- **Visual Studio 2022** or later
+- **.NET Framework 4.7.2+**
+- **NuGet Package Manager** (bundled with Visual Studio)
+- **SQL Server Compact** (database engine)
+- **Modern browser** (Chrome, Firefox, Safari, Edge)
 
-## How to Run
+---
 
-1. Build the solution
-2. Set startup project to EssentialJS2MvcApplication1
-3. Press F5 to start the server
-4. Navigate to PivotGrid from the menu
+## 🧭 Quick Start
 
-## Usage
+### 1️⃣ Checkout the Repository
+```bash
+git clone https://github.com/SyncfusionExamples/aspnetcore-render-PivotGrid-by-using-date-range-filter
+cd "Render pivotgrid using date range filter"
+```
 
-* Access PivotGrid from the navigation menu
-* Use date range controls to filter by time period
-* Pivot grid updates automatically with filtered data
-* View data organized by rows, columns, and value fields
+### 2️⃣ Open in Visual Studio
+- Launch Visual Studio 2022
+- Open `EssentialJS2MvcApplication1.sln`
 
-## Technologies Used
+### 3️⃣ Restore Dependencies
+- Visual Studio automatically restores NuGet packages
+- If needed, use **Tools → NuGet Package Manager → Manage Packages for Solution**
 
-* ASP.NET MVC
-* EssentialJS2 (Syncfusion)
-* Bootstrap CSS
-* jQuery
-* SQL Server Compact
+### 4️⃣ Build & Run
+- Right-click the solution and select **Build**
+- Press **F5** to start the application
+- The browser automatically opens at `http://localhost:xxxx`
+- Navigate to **PivotGrid** from the menu
 
-## Support
+---
 
-Refer to Syncfusion documentation for additional details.
+## 🎯 Usage Guide
+
+1. **Access the PivotGrid** — Click the PivotGrid menu item in the navigation
+2. **Set Date Range** — Use the date range picker to filter data by time period
+3. **View Results** — Pivot grid automatically updates with aggregated data
+4. **Explore Data** — Interact with rows, columns, and value fields
+
+---
+
+## 🗂️ Project Structure
+
+```
+Render pivotgrid using date range filter/
+├── Controllers/              # MVC controllers (PivotGridController)
+├── Views/
+│   └── PivotGrid/           # Pivot grid view (PivotGridFeatures.cshtml)
+├── Models/                  # Data models and view models
+├── App_Data/
+│   └── ReportsTable.sdf     # SQL Server Compact database
+├── Content/                 # CSS stylesheets
+├── Scripts/                 # JavaScript libraries
+├── App_Start/               # Configuration files
+└── EssentialJS2MvcApplication1.csproj
+```
+
+---
+
+## 🛠 Technologies Used
+
+| Technology | Version | Purpose |
+|------------|---------|---------|
+| ASP.NET MVC | 5.x | Web framework |
+| Syncfusion EJ2 | Latest | UI components |
+| Bootstrap | 3.x+ | Responsive styling |
+| jQuery | 3.1.1+ | DOM manipulation |
+| SQL Server Compact | 4.0 | Data persistence |
+
+---
+
+## ⚙️ Configuration
+
+### Database Connection
+- Database file: `App_Data/ReportsTable.sdf`
+- Connection string configured in `Web.config`
+- Ensure file permissions allow read/write access
+
+### PivotGrid Settings
+- Customize in `PivotGridController.cs`
+- Modify field arrangements, aggregations, and filters
+- Extend with calculated fields or custom formatting
+
+---
+
+## 📖 Documentation & Resources
+
+- 📚 [Syncfusion EJ2 Documentation](https://ej2.syncfusion.com/aspnetmvc/documentation/pivot-table/getting-started)
+- 💬 [Syncfusion Support Forum](https://www.syncfusion.com/ej2/aspnet-mvc-components/)
+
+---
+
+## 📄 License
+
+This project is licensed under the **Syncfusion Community License**. See [Syncfusion License](https://www.syncfusion.com/content/downloads/syncfusion_license.pdf) for details.
+
+---
+
+## 🤝 Support
+
+For issues, questions, or suggestions:
+- 📧 Email: support@syncfusion.com
+- 💬 [GitHub Discussions](https://github.com/SyncfusionExamples)
+- 📞 [Syncfusion Support Portal](https://support.syncfusion.com/)
