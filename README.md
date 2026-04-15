@@ -1,62 +1,52 @@
 # How to render PivotGrid by using Date Range Filter
 
-## Project Overview
+## Repository Description
 
-This project showcases the integration of Syncfusion's EssentialJS2 PivotGrid control within an ASP.NET MVC application. The primary focus is on demonstrating how to apply date range filters to pivot grid data, enabling users to view summarized and aggregated data within specific time periods. This is particularly useful for business intelligence, reporting, and data analysis scenarios.
+An ASP.NET MVC application demonstrating Syncfusion's EssentialJS2 PivotGrid with interactive date range filtering.
 
 ## Features
 
-* **PivotGrid Rendering** - Dynamic rendering of pivot grid with customizable rows, columns, and values
-* **Date Range Filtering** - Interactive date range picker for filtering pivot grid data
-* **Data Aggregation** - Automatic aggregation and summarization of data based on applied filters
-* **Responsive Design** - Bootstrap-based responsive UI that adapts to different screen sizes
-* **EssentialJS2 Integration** - Leverage of Syncfusion's EssentialJS2 components for rich UI elements
+* **PivotGrid Rendering** - Dynamic pivot grid with customizable rows, columns, and values
+* **Date Range Filtering** - Interactive picker for filtering data by time periods
+* **Data Aggregation** - Automatic summarization based on applied filters
+* **Responsive Design** - Bootstrap-based responsive UI for all screen sizes
+* **EssentialJS2 Integration** - Syncfusion components for rich user interface
 
 ## Prerequisites
 
 * Visual Studio 2022
-* .NET Framework (compatible with the project configuration)
-* NuGet Package Manager for dependency management
+* .NET Framework
+* NuGet Package Manager
 
 ## Installation
 
-1. **Checkout this project** to a location on your disk
-2. **Open the solution file** using Visual Studio 2022
-3. **Restore NuGet packages** by rebuilding the solution - this will download all required dependencies
-4. **Ensure database connectivity** - The project includes a SQL Server Compact database (ReportsTable.sdf) in the App_Data folder
+1. Checkout this project to your disk
+2. Open the solution in Visual Studio 2022
+3. Restore NuGet packages by rebuilding
+4. Ensure SQL Server Compact database connectivity (ReportsTable.sdf in App_Data)
 
-## How to Run the Project
+## How to Run
 
-1. Build the solution to restore all NuGet packages
-2. Set the startup project to EssentialJS2MvcApplication1
-3. Press F5 or click Run to start the development server
-4. Navigate to the PivotGrid view through the application menu
+1. Build the solution
+2. Set startup project to EssentialJS2MvcApplication1
+3. Press F5 to start the server
+4. Navigate to PivotGrid from the menu
 
 ## Usage
 
-The application provides a user-friendly interface for working with pivot grid data:
-
-* Access the PivotGrid features through the application's navigation menu
-* Use the date range filter controls to select your desired time period
-* The pivot grid automatically updates to display filtered data
-* Pivot grid data is organized by rows, columns, and value fields for comprehensive analysis
-
-## Project Structure
-
-* **Controllers** - Application controllers including PivotGridController for handling pivot grid operations
-* **Views** - Razor views for rendering the user interface, including PivotGridFeatures.cshtml
-* **Models** - Data models and view models for application structure
-* **Scripts** - JavaScript libraries and references for client-side functionality
-* **Content** - CSS stylesheets and styling resources
+* Access PivotGrid from the navigation menu
+* Use date range controls to filter by time period
+* Pivot grid updates automatically with filtered data
+* View data organized by rows, columns, and value fields
 
 ## Technologies Used
 
 * ASP.NET MVC
-* EssentialJS2 (Syncfusion components)
-* Bootstrap CSS Framework
-* jQuery for DOM manipulation
-* SQL Server Compact Database
+* EssentialJS2 (Syncfusion)
+* Bootstrap CSS
+* jQuery
+* SQL Server Compact
 
 ## Support
 
-For questions or issues regarding this project, please refer to the Syncfusion documentation or the project structure for implementation details.
+Refer to Syncfusion documentation for additional details.
