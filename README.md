@@ -1,5 +1,6 @@
 # 📊 ASP.NET MVC PivotGrid with Date Range Filter
 
+[![License](https://img.shields.io/badge/license-SEE%20LICENSE-blue.svg)](https://www.syncfusion.com/content/downloads/syncfusion_license.pdf)
 [![Visual Studio 2022](https://img.shields.io/badge/Visual%20Studio-2022-blue.svg)](https://visualstudio.microsoft.com/)
 [![.NET Framework](https://img.shields.io/badge/.NET%20Framework-Supported-brightgreen.svg)](https://dotnet.microsoft.com/)
 [![Syncfusion EJ2](https://img.shields.io/badge/Syncfusion%20EJ2-Latest-green.svg)](https://www.syncfusion.com/aspnet-core-ui-controls/pivot-table)
