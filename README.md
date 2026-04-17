@@ -3,7 +3,7 @@
 [![License](https://img.shields.io/badge/license-SEE%20LICENSE%20IN%20license-blue.svg)](https://www.syncfusion.com/content/downloads/syncfusion_license.pdf)
 [![Visual Studio 2022](https://img.shields.io/badge/Visual%20Studio-2022-blue.svg)](https://visualstudio.microsoft.com/)
 [![.NET Framework](https://img.shields.io/badge/.NET%20Framework-Supported-brightgreen.svg)](https://dotnet.microsoft.com/)
-[![Syncfusion EJ2](https://img.shields.io/badge/Syncfusion%20EJ2-Latest-green.svg)](https://www.syncfusion.com/aspnet-mvc-components/)
+[![Syncfusion EJ2](https://img.shields.io/badge/Syncfusion%20EJ2-Latest-green.svg)](https://www.syncfusion.com/aspnet-core-ui-controls/pivot-table)
 
 > An ASP.NET MVC application demonstrating **Syncfusion EssentialJS2 PivotGrid** with interactive date range filtering, dynamic data aggregation, and responsive UI—perfect for business intelligence and analytical reporting scenarios.
 
@@ -35,7 +35,7 @@
 ### 1️⃣ Checkout the Repository
 ```bash
 git clone https://github.com/SyncfusionExamples/aspnetcore-render-PivotGrid-by-using-date-range-filter
-cd "Render pivotgrid using date range filter"
+cd Render pivotgrid using date range filter
 ```
 
 ### 2️⃣ Open in Visual Studio
@@ -109,8 +109,8 @@ Render pivotgrid using date range filter/
 
 ## 📖 Documentation & Resources
 
-- 📚 [Syncfusion EJ2 Documentation](https://ej2.syncfusion.com/aspnetmvc/documentation/pivot-table/getting-started)
-- 💬 [Syncfusion Support Forum](https://www.syncfusion.com/ej2/aspnet-mvc-components/)
+- 📚 [Syncfusion ASP.NET Core Documentation](https://ej2.syncfusion.com/aspnetcore/documentation/pivot-table/getting-started)
+- 💬 [Syncfusion Support Forum](https://www.syncfusion.com/forums/aspnetcore-js2)
 
 ---
 
